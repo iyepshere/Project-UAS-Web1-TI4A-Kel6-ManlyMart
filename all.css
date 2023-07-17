@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(https://i.pinimg.com/564x/09/b6/21/09b621ca8fd06272b758ba3b450edbdb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5); 
+}
+.header img{
+	background-color: black;
+}
+
+.text{
+	font-size: 16px;
+	color: white;
+	font-family: "Cambria", sans-serif;
+	font-weight: bold;
+	background-color: black;
+	text-align: center;
+}
+
+.market {
+	background-color: white;
+}
+
+.market col {
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.market col img{
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.market col h4{
+	font-size: 14px;
+	color: black;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.market col p{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+
+.bersih{
+	clear: both;
+}
+
+.market footer {
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	margin-top: 30px;
+}
+.kolom {
+	width: calc(33.33% - 10px);
+	float: left;
+	margin: 5px;
+}
+.market footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+.market footer li {
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+}
+.market footer img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.market footer h1{
+	color: white;
+	font-size: 60px;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	text-align: center;
+}

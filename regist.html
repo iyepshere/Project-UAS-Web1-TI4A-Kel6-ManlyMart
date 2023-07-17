@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Register</title>
+    <style>
+        body {
+            background-image: url('https://radarpekanbaru.com/assets/berita/original/61085595469-baju_lebaran.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 50px;
+            background-color: rgba(47, 33, 13, 0.1);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: rgba(245, 222, 179);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: rgba(245, 222, 179);
+            }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        a {
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            color: #999;
+            text-decoration: none;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+    <h2>Form Register User</h2>
+    <form method="POST" action="register.php">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Nama lengkap Anda" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email Anda" required><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+    <br>
+    <a href="index-login.php">Have an account? Login</a>
+</div>
+</body>
+</html>
